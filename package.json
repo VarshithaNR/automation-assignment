@@ -1,0 +1,24 @@
+{
+  "name": "automation-anywhere-tests",
+  "version": "1.0.0",
+  "description": "Playwright automation for Automation Anywhere Community Edition",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test tests/ui/",
+    "test:api": "npx playwright test tests/api/",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:usecase1": "npx playwright test tests/ui/usecase1-message-box.spec.ts",
+    "test:usecase2": "npx playwright test tests/ui/usecase2-form-upload.spec.ts",
+    "test:usecase3": "npx playwright test tests/api/usecase3-learning-instance.spec.ts",
+    "validate": "npx ts-node utils/validateSetup.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.42.1",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.6.1",
+    "playwright": "1.42.1",
+    "playwright-core": "1.42.1",
+    "typescript": "^5.0.0"
+  }
+}

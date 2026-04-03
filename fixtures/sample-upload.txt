@@ -1,0 +1,3 @@
+This is a sample test file used for Automation Anywhere file upload testing.
+Generated automatically by the Playwright automation framework.
+DO NOT MODIFY – used as test data.
